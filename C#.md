@@ -1,3 +1,10 @@
+# Comment
+``` C#
+// On line comment
+/*
+Multi line
+*/
+```
 # Print out
 ``` C#
 Console.Write("Hello World")
