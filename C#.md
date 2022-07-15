@@ -42,3 +42,10 @@ string name =  Console.ReadLine();
 // Get a number
 int num = Convert.ToInt32(Console.ReadLine());
 ```
+
+# Array
+``` C#
+// Need to specify the array size when create a new array
+string[] strArray = new string[10];
+int[] array = { 1, 2, 3};
+```
