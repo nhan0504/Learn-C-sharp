@@ -64,3 +64,19 @@ switch (num) {
         break;
 }
 ```
+
+# Looping 
+## While loop
+``` C#
+int i = 0;
+while (i < 5) {
+    Console.WriteLine(i);
+    i++;
+}
+```
+## For loop
+``` C#
+for (int i = 0; i < 5, i++) {
+    Console.WriteLine(i);
+}
+```
