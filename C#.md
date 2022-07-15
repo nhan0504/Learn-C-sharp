@@ -114,3 +114,13 @@ catch(NullReferenceException e) {
     Console.WriteLine(e.Message);
 }
 ```
+
+# Object and class
+``` C#
+class Book {
+    public string title;
+    public int pages;
+}
+
+Book myBook = new Book;
+```
