@@ -1,5 +1,6 @@
 # Print out
 ``` C#
+Console.Write("Hello World")
 Console.WriteLine("Hello World")
 ```
 # Variable
@@ -33,4 +34,11 @@ float, double, decimal
 ## Boolean
 ``` C#
 bool isEmpty = true;
+```
+
+# Input
+``` C#
+string name =  Console.ReadLine();
+// Get a number
+int num = Convert.ToInt32(Console.ReadLine());
 ```
