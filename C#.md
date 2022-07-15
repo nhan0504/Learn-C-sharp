@@ -49,3 +49,18 @@ int num = Convert.ToInt32(Console.ReadLine());
 string[] strArray = new string[10];
 int[] array = { 1, 2, 3};
 ```
+
+# Condition statement
+``` C#
+if (...) {...}
+else {...}
+
+switch (num) {
+    case 1:
+        ...
+        break;
+    case 2:
+        ...
+        break;
+}
+```
