@@ -49,6 +49,17 @@ int num = Convert.ToInt32(Console.ReadLine());
 string[] strArray = new string[10];
 int[] array = { 1, 2, 3};
 ```
+## 2d Array
+``` C#
+int[,] matrix = new int[2,3];
+int[,] number = {
+    {1, 2},
+    {2, 3},
+    {3, 4 }
+}
+
+Console.Write(number[0, 0])
+```
 
 # Condition statement
 ``` C#
