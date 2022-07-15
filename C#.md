@@ -98,3 +98,19 @@ for (int i = 0; i < 5, i++) {
     Console.WriteLine(i);
 }
 ```
+
+# Error handling
+``` C#
+try {...}
+catch(Exception e) {
+    Console.WriteLine(e.Message);
+}
+// Catch multiple specific error
+try {...}
+catch(FormatException e) {
+    Console.WriteLine(e.Message);
+}
+catch(NullReferenceException e) {
+    Console.WriteLine(e.Message);
+}
+```
