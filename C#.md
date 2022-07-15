@@ -124,3 +124,16 @@ class Book {
 
 Book myBook = new Book;
 ```
+
+# Constructor
+``` C#
+class Book {
+    public string title;
+    public int pages;
+}
+
+public Book(string title, int pages) {
+    title = title;
+    pages = pages;
+}
+```
