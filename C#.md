@@ -176,3 +176,30 @@ public string Gpa {
     }
 }
 ```
+
+# Inheritance
+- Inherit a class
+``` C#
+class Animal {
+    ...
+}
+
+// Class Dog inherit class Animal
+class Dog: Animal {
+
+}
+```
+- Overwrite a method in the superclass. Have to specify that method in the superclass as virtual -> Allow subclass to overwrite
+``` C#
+class Animal {
+    public virtual void eat() {
+        ...
+    }
+}
+
+class Dog: Animal {
+    public override void eat() {
+        ...
+    }
+}
+```
