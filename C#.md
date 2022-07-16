@@ -119,21 +119,44 @@ catch(NullReferenceException e) {
 ``` C#
 class Book {
     public string title;
-    public int pages;
+    private rating;
 }
 
 Book myBook = new Book;
 ```
-
-# Constructor
+## Constructor
 ``` C#
 class Book {
     public string title;
-    public int pages;
+    private rating;
 }
 
-public Book(string title, int pages) {
+public Book(string title, int rating) {
     title = title;
-    pages = pages;
+    rating = rating;
+}
+```
+## Getter and setter
+``` C#
+class Book {
+    public string title;
+    private rating;
+}
+
+public Book(string title, int rating) {
+    title = title;
+    // Use the Rating setter method
+    Rating = rating;
+}
+
+public string Rating {
+    get { return rating; }
+    set {
+        if (value <=0 || value > 5) {
+            rating = null;
+        } else {
+            rating = value;
+        }
+    }
 }
 ```
